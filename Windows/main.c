@@ -1,5 +1,8 @@
 //The headers
 #include <SDL/SDL.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include "includes/mario.h"
 
 //The attributes of the screen
 const int SCREEN_WIDTH = 600;
@@ -67,25 +70,34 @@ int isAllowed(int x, int y) {
         return 0;
 }
 
+void reshape(){
+    glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+}
+
 int main( int argc, char* args[] )
 {
     //Initialize all SDL subsystems
-    if( SDL_Init( SDL_INIT_EVERYTHING ) == -1 )
+    if( SDL_Init( SDL_INIT_VIDEO ) == -1 )
     {
-        return 1;
+        fprintf(stderr, "Impossible d'initialiser la SDL");
+        return EXIT_FAILURE;
     }
 
     //Set up the screen
     screen = SDL_SetVideoMode( SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP, SDL_SWSURFACE );
-
-    //If there was an error in setting up the screen
     if( screen == NULL )
     {
-        return 1;
+        fprintf(stderr, "Impossible d'ouvrir la fenetre");
+        return EXIT_FAILURE;
     }
 
     //Set the window caption
     SDL_WM_SetCaption( "Donkey Kong", NULL );
+
+    //Creation des éléments
+    Mario player = createMario(0, -1, 1, 0.2, 0.2, 1, 0.2, 0.2);
 
     //Load the images
     SDL_Surface* mario = load_image("img/mario.bmp" );
@@ -104,7 +116,6 @@ int main( int argc, char* args[] )
     colorkey = SDL_MapRGB( echelle->format, 0, 0, 0);
     SDL_SetColorKey(sol, SDL_SRCCOLORKEY, colorkey);
 
-
     mariow = mario->w;
 
     sol_rect.minx = 0;
@@ -119,7 +130,6 @@ int main( int argc, char* args[] )
 
 
     //Apply the message to the screen
-
     int mariox = 0;
     int marioy = SCREEN_HEIGHT - sol->h - mario->h;
     int tonnx = 200;
@@ -159,6 +169,7 @@ int main( int argc, char* args[] )
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
                 quit = 1;
+                break;
             }
         }
         Uint8 *keyState = SDL_GetKeyState(0);

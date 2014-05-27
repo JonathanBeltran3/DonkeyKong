@@ -192,3 +192,12 @@
 	"begin_code.h"
 	"close_code.h"
 
+1401218794 source:c:\users\andréas\documents\donkeykong\donkeykong\windows\main.c
+	<SDL/SDL.h>
+	"includes/mario.h"
+
+1401218030 c:\users\andréas\documents\donkeykong\donkeykong\windows\includes\mario.h
+
+1401218842 source:c:\users\andréas\documents\donkeykong\donkeykong\windows\mario.c
+	"includes/mario.h"
+
