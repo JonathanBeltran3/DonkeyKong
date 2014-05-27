@@ -3,6 +3,9 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include "includes/mario.h"
+#include "includes/draw.h"
+#define C_MAX 200
+#define T_MAX 5
 
 //The attributes of the screen
 const int SCREEN_WIDTH = 600;
@@ -41,19 +44,6 @@ SDL_Surface *load_image( char* filename )
     return optimizedImage;
 }
 
-void apply_surface( int x, int y, SDL_Surface* source, SDL_Surface* destination )
-{
-    //Make a temporary rectangle to hold the offsets
-    SDL_Rect offset;
-
-    //Give the offsets to the rectangle
-    offset.x = x;
-    offset.y = y;
-
-    //Blit the surface
-    SDL_BlitSurface( source, NULL, destination, &offset );
-}
-
 struct Rectangle { int minx, maxx, miny, maxy; };
 struct Rectangle sol_rect;
 struct Rectangle ech_rect;
@@ -74,6 +64,7 @@ void reshape(){
     glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
+    gluOrtho2D(-1., 1., -1., 1.);
 }
 
 int main( int argc, char* args[] )
@@ -98,6 +89,7 @@ int main( int argc, char* args[] )
 
     //Creation des éléments
     Mario player = createMario(0, -1, 1, 0.2, 0.2, 1, 0.2, 0.2);
+    GLuint textRacketId[T_MAX];
 
     //Load the images
     SDL_Surface* mario = load_image("img/mario.bmp" );
