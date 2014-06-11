@@ -4,6 +4,7 @@
 #include <OpenGL/glu.h>
 #include "includes/mario.h"
 #include "includes/draw.h"
+
 #define C_MAX 200
 #define T_MAX 5
 
