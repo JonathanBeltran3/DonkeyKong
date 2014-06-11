@@ -19,6 +19,8 @@
 	<dict>
 		<key>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</key>
 		<string>../../..</string>
+		<key>4EDD889F-F160-4411-A15B-775BEE04DA3D</key>
+		<string>../../../../DonkeyKongMacShit</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/JonathanBeltran3/DonkeyKong.git</string>
@@ -28,6 +30,14 @@
 	<string>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EDD889F-F160-4411-A15B-775BEE04DA3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DonkeyKongMacShit</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
