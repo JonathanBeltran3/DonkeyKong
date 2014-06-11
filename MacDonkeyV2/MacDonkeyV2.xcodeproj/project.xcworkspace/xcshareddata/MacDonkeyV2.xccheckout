@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99112B24-A26F-4B74-9C85-AFB46E07D2F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MacDonkeyV2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</key>
+		<string>https://github.com/JonathanBeltran3/DonkeyKong.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MacDonkeyV2/MacDonkeyV2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JonathanBeltran3/DonkeyKong.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1233873B-9A38-4CFB-BAF5-AC528C51A4FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DonkeyKongWin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
