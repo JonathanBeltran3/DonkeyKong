@@ -13,10 +13,8 @@
 		C835447B1948908000A3B094 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C835447A1948908000A3B094 /* Cocoa.framework */; };
 		C835447D194890AE00A3B094 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C835447C194890AE00A3B094 /* SDL.framework */; };
 		C835447F194890BC00A3B094 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C835447E194890BC00A3B094 /* OpenGL.framework */; };
-		C8354481194890CB00A3B094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8354480194890CB00A3B094 /* Foundation.framework */; };
-		C83544831948911600A3B094 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83544821948911600A3B094 /* GLUT.framework */; };
-		C835448D1948918D00A3B094 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = C835448C1948918D00A3B094 /* SDLMain.m */; };
-		C83544911948A4E500A3B094 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83544901948A4E500A3B094 /* CoreData.framework */; };
+		C83544931948A90B00A3B094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83544921948A90B00A3B094 /* Foundation.framework */; };
+		C83544971948A9DF00A3B094 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = C83544961948A9DF00A3B094 /* SDLMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,24 +32,22 @@
 
 /* Begin PBXFileReference section */
 		C835446C194888F300A3B094 /* MacDonkeyV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacDonkeyV2; sourceTree = BUILT_PRODUCTS_DIR; };
-		C835446F194888F300A3B094 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C835446F194888F300A3B094 /* main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = main.c; sourceTree = "<group>"; };
 		C8354471194888F300A3B094 /* MacDonkeyV2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MacDonkeyV2.1; sourceTree = "<group>"; };
 		C835447819488F9A00A3B094 /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mario.c; sourceTree = "<group>"; };
 		C835447A1948908000A3B094 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C835447C194890AE00A3B094 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		C835447E194890BC00A3B094 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		C8354480194890CB00A3B094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C83544821948911600A3B094 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		C83544851948917500A3B094 /* echelle.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = echelle.bmp; sourceTree = "<group>"; };
-		C83544861948917500A3B094 /* mario.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = mario.bmp; sourceTree = "<group>"; };
-		C83544871948917500A3B094 /* sol.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sol.bmp; sourceTree = "<group>"; };
-		C83544881948917500A3B094 /* todd.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = todd.bmp; sourceTree = "<group>"; };
 		C835448A1948917500A3B094 /* tonneau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tonneau.h; sourceTree = "<group>"; };
-		C835448B1948918D00A3B094 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = ../../../DonkeyKongMacShit/DonkeyKong/SDLMain.h; sourceTree = "<group>"; };
-		C835448C1948918D00A3B094 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../../../DonkeyKongMacShit/DonkeyKong/SDLMain.m; sourceTree = "<group>"; };
 		C835448E1948A08800A3B094 /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
 		C835448F1948A09500A3B094 /* mario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mario.h; sourceTree = "<group>"; };
-		C83544901948A4E500A3B094 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C83544921948A90B00A3B094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C83544951948A9DF00A3B094 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		C83544961948A9DF00A3B094 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		C83544991948AC8D00A3B094 /* echelle.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = echelle.bmp; sourceTree = "<group>"; };
+		C835449A1948AC8D00A3B094 /* mario.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = mario.bmp; sourceTree = "<group>"; };
+		C835449B1948AC8D00A3B094 /* sol.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sol.bmp; sourceTree = "<group>"; };
+		C835449C1948AC8D00A3B094 /* todd.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = todd.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83544911948A4E500A3B094 /* CoreData.framework in Frameworks */,
-				C83544831948911600A3B094 /* GLUT.framework in Frameworks */,
-				C8354481194890CB00A3B094 /* Foundation.framework in Frameworks */,
+				C83544931948A90B00A3B094 /* Foundation.framework in Frameworks */,
 				C835447F194890BC00A3B094 /* OpenGL.framework in Frameworks */,
 				C835447D194890AE00A3B094 /* SDL.framework in Frameworks */,
 				C835447B1948908000A3B094 /* Cocoa.framework in Frameworks */,
@@ -74,9 +68,7 @@
 		C8354463194888F300A3B094 = {
 			isa = PBXGroup;
 			children = (
-				C83544901948A4E500A3B094 /* CoreData.framework */,
-				C83544821948911600A3B094 /* GLUT.framework */,
-				C8354480194890CB00A3B094 /* Foundation.framework */,
+				C83544921948A90B00A3B094 /* Foundation.framework */,
 				C835447E194890BC00A3B094 /* OpenGL.framework */,
 				C835447C194890AE00A3B094 /* SDL.framework */,
 				C835447A1948908000A3B094 /* Cocoa.framework */,
@@ -96,27 +88,15 @@
 		C835446E194888F300A3B094 /* MacDonkeyV2 */ = {
 			isa = PBXGroup;
 			children = (
-				C83544841948917500A3B094 /* img */,
+				C83544981948AC8D00A3B094 /* img */,
 				C83544891948917500A3B094 /* includes */,
 				C835446F194888F300A3B094 /* main.c */,
+				C83544951948A9DF00A3B094 /* SDLMain.h */,
+				C83544961948A9DF00A3B094 /* SDLMain.m */,
 				C835447819488F9A00A3B094 /* mario.c */,
-				C835448B1948918D00A3B094 /* SDLMain.h */,
-				C835448C1948918D00A3B094 /* SDLMain.m */,
 				C8354471194888F300A3B094 /* MacDonkeyV2.1 */,
 			);
 			path = MacDonkeyV2;
-			sourceTree = "<group>";
-		};
-		C83544841948917500A3B094 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				C83544851948917500A3B094 /* echelle.bmp */,
-				C83544861948917500A3B094 /* mario.bmp */,
-				C83544871948917500A3B094 /* sol.bmp */,
-				C83544881948917500A3B094 /* todd.bmp */,
-			);
-			name = img;
-			path = ../../../DonkeyKongMacShit/DonkeyKong/img;
 			sourceTree = "<group>";
 		};
 		C83544891948917500A3B094 /* includes */ = {
@@ -128,6 +108,17 @@
 			);
 			name = includes;
 			path = ../../../DonkeyKongMacShit/DonkeyKong/includes;
+			sourceTree = "<group>";
+		};
+		C83544981948AC8D00A3B094 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				C83544991948AC8D00A3B094 /* echelle.bmp */,
+				C835449A1948AC8D00A3B094 /* mario.bmp */,
+				C835449B1948AC8D00A3B094 /* sol.bmp */,
+				C835449C1948AC8D00A3B094 /* todd.bmp */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C835448D1948918D00A3B094 /* SDLMain.m in Sources */,
+				C83544971948A9DF00A3B094 /* SDLMain.m in Sources */,
 				C835447919488F9A00A3B094 /* mario.c in Sources */,
 				C8354470194888F300A3B094 /* main.c in Sources */,
 			);
@@ -256,6 +247,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -268,7 +260,9 @@
 					"/Bibliothèque/Frameworks",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
-				OTHER_LDFLAGS = "${BUILT_PRODUCTS_DIR}/libCordova.a";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -281,7 +275,9 @@
 					"/Bibliothèque/Frameworks",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
-				OTHER_LDFLAGS = "${BUILT_PRODUCTS_DIR}/libCordova.a";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
