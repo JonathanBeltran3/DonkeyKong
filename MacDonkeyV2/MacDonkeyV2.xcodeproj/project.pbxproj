@@ -39,7 +39,6 @@
 		C835447A1948908000A3B094 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C835447C194890AE00A3B094 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		C835447E194890BC00A3B094 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		C835448A1948917500A3B094 /* tonneau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tonneau.h; sourceTree = "<group>"; };
 		C835448E1948A08800A3B094 /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
 		C835448F1948A09500A3B094 /* mario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mario.h; sourceTree = "<group>"; };
 		C83544921948A90B00A3B094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +49,8 @@
 		C835449B1948AC8D00A3B094 /* sol.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sol.bmp; sourceTree = "<group>"; };
 		C835449C1948AC8D00A3B094 /* todd.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = todd.bmp; sourceTree = "<group>"; };
 		C8DF8EF91949C854003E6A03 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = draw.c; sourceTree = "<group>"; };
+		C8DF8EFB1949CD86003E6A03 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		C8DF8EFC1949CDBA003E6A03 /* barrel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barrel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +106,10 @@
 		C83544891948917500A3B094 /* includes */ = {
 			isa = PBXGroup;
 			children = (
-				C835448A1948917500A3B094 /* tonneau.h */,
+				C8DF8EFC1949CDBA003E6A03 /* barrel.h */,
 				C835448E1948A08800A3B094 /* draw.h */,
 				C835448F1948A09500A3B094 /* mario.h */,
+				C8DF8EFB1949CD86003E6A03 /* scale.h */,
 			);
 			name = includes;
 			path = ../../../DonkeyKongMacShit/DonkeyKong/includes;
