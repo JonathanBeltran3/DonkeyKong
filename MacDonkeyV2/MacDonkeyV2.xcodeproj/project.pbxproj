@@ -49,8 +49,8 @@
 		C835449B1948AC8D00A3B094 /* sol.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sol.bmp; sourceTree = "<group>"; };
 		C835449C1948AC8D00A3B094 /* todd.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = todd.bmp; sourceTree = "<group>"; };
 		C8DF8EF91949C854003E6A03 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = draw.c; sourceTree = "<group>"; };
-		C8DF8EFB1949CD86003E6A03 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
 		C8DF8EFC1949CDBA003E6A03 /* barrel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barrel.h; sourceTree = "<group>"; };
+		C8DF8EFD1949D174003E6A03 /* ladder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ladder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				C8DF8EFC1949CDBA003E6A03 /* barrel.h */,
 				C835448E1948A08800A3B094 /* draw.h */,
 				C835448F1948A09500A3B094 /* mario.h */,
-				C8DF8EFB1949CD86003E6A03 /* scale.h */,
+				C8DF8EFD1949D174003E6A03 /* ladder.h */,
 			);
 			name = includes;
 			path = ../../../DonkeyKongMacShit/DonkeyKong/includes;
