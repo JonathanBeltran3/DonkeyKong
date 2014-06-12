@@ -93,19 +93,19 @@ int main( int argc, char* args[] )
     GLuint textRacketId[T_MAX];
     
     //Load the images
-    SDL_Surface* mario = load_image("./img/mario.bmp" );
+    SDL_Surface* mario = load_image("/Users/Jo/Google Drive/GitHub/DonkeyKongWin/MacDonkeyV2/MacDonkeyV2/img/mario.bmp" );
     Uint32 colorkey = SDL_MapRGB(mario->format, 0, 255, 0);
     SDL_SetColorKey(mario, SDL_SRCCOLORKEY, colorkey);
     
-    SDL_Surface* tonneau = load_image("./img/todd.bmp");
+    SDL_Surface* tonneau = load_image("/Users/Jo/Google Drive/GitHub/DonkeyKongWin/MacDonkeyV2/MacDonkeyV2/img/todd.bmp");
     colorkey = SDL_MapRGB( tonneau->format, 4, 242, 77 );
     SDL_SetColorKey(tonneau, SDL_SRCCOLORKEY, colorkey);
     
-    SDL_Surface* sol = load_image("./img/sol.bmp");
+    SDL_Surface* sol = load_image("/Users/Jo/Google Drive/GitHub/DonkeyKongWin/MacDonkeyV2/MacDonkeyV2/img/sol.bmp");
     colorkey = SDL_MapRGB( sol->format, 0, 0, 0);
     SDL_SetColorKey(sol, SDL_SRCCOLORKEY, colorkey);
     
-    SDL_Surface* echelle = load_image("./img/echelle.bmp");
+    SDL_Surface* echelle = load_image("/Users/Jo/Google Drive/GitHub/DonkeyKongWin/MacDonkeyV2/MacDonkeyV2/img/echelle.bmp");
     colorkey = SDL_MapRGB( echelle->format, 0, 0, 0);
     SDL_SetColorKey(sol, SDL_SRCCOLORKEY, colorkey);
     

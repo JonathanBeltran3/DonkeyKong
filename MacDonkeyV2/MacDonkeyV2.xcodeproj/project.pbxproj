@@ -15,6 +15,7 @@
 		C835447F194890BC00A3B094 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C835447E194890BC00A3B094 /* OpenGL.framework */; };
 		C83544931948A90B00A3B094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83544921948A90B00A3B094 /* Foundation.framework */; };
 		C83544971948A9DF00A3B094 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = C83544961948A9DF00A3B094 /* SDLMain.m */; };
+		C8DF8EFA1949C854003E6A03 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = C8DF8EF91949C854003E6A03 /* draw.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		C835449A1948AC8D00A3B094 /* mario.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = mario.bmp; sourceTree = "<group>"; };
 		C835449B1948AC8D00A3B094 /* sol.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sol.bmp; sourceTree = "<group>"; };
 		C835449C1948AC8D00A3B094 /* todd.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = todd.bmp; sourceTree = "<group>"; };
+		C8DF8EF91949C854003E6A03 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = draw.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				C83544951948A9DF00A3B094 /* SDLMain.h */,
 				C83544961948A9DF00A3B094 /* SDLMain.m */,
 				C835447819488F9A00A3B094 /* mario.c */,
+				C8DF8EF91949C854003E6A03 /* draw.c */,
 				C8354471194888F300A3B094 /* MacDonkeyV2.1 */,
 			);
 			path = MacDonkeyV2;
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83544971948A9DF00A3B094 /* SDLMain.m in Sources */,
+				C8DF8EFA1949C854003E6A03 /* draw.c in Sources */,
 				C835447919488F9A00A3B094 /* mario.c in Sources */,
 				C8354470194888F300A3B094 /* main.c in Sources */,
 			);
